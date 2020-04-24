@@ -3,4 +3,4 @@
 #scheduler=$(cat /data/.scheduler)
 #echo "Setting scheduler hostname to $scheduler"
 #echo "Starting Dask worker..."
-dask-worker --worker-port 8000 --name Worker1 tcp://79.143.29.180:8786
+dask-worker --worker-port 8000 --name Worker1 tcp://192.168.56.102:8786
